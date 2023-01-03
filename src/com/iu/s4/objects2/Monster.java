@@ -3,11 +3,18 @@ package com.iu.s4.objects2;
 public class Monster {
 	
 	//멤버변수, instance변수
-	int power;
+	int power=100;
 	int hp;
 	
-	//멤버메서드, instance method
+	//생성자 Constructor
+	public Monster() {
+		//매개변수가 없는 생성자를 기본생성자, default Constructor
+		System.out.println("생성자 실행");
+		this.power=50;
+		this.hp=60;
+	}
 	
+	//멤버메서드, instance method
 	public boolean checkValue(Monster monster) {
 		//나의 power와 몬스터의 power와 같고, 나의 hp와 몬스터의 hp와 같다면 true, 다르면 flase 리턴
 		if(this.power == monster.power&& this.hp == monster.hp) {
