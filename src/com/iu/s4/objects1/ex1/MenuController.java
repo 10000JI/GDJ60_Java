@@ -26,12 +26,12 @@ public class MenuController {
 			} else if(num==2) {
 				Student student = sip.findStudent(students);
 				if(student!=null) {
-					sv.viewOne(student);
+					sv.view(student);
 				}else {
 					System.out.println("그런 학생은 없어요!");
 				}
 			} else if(num==3) {
-				sv.viewList(students);
+				sv.view(students);
 			}else if (num==4) {
 				students = sip.setStudent(students);
 			}else if (num==5) {
