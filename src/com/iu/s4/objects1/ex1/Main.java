@@ -8,6 +8,8 @@ public class Main {
 		System.out.println("Start");
 		MenuController mc = new MenuController();
 		mc.start();
+		
+		System.out.println("finish");
 	}
 
 }
