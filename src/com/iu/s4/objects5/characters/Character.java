@@ -10,9 +10,14 @@ public abstract class Character {
 		this.name = name;
 	}
 	
-	public abstract void attack();
-	//자식클래스에서는 오버라이딩 해야 함
-	//메소드가 abstract이면 클래스도 abstract 지정자 써준다.
+	public Character() {
+		
+	}
+	//기본생성자는 항상 써주자
+	
+//	public abstract void attack();
+//	//자식클래스에서는 오버라이딩 해야 함
+//	//메소드가 abstract이면 클래스도 abstract 지정자 써준다.
 	
 	public int getLevel() {
 		return level;

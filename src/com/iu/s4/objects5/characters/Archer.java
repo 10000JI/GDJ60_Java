@@ -1,6 +1,6 @@
 package com.iu.s4.objects5.characters;
 
-public class Archer extends Character{
+public class Archer extends Character implements AttactAble{
 
 	private int dex;
 	
