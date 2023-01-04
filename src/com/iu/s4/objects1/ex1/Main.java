@@ -11,6 +11,7 @@ public class Main {
 		System.out.println("집에서 추가한 내용");
 		System.out.println("으악!");
 		System.out.println("이게 진짜 집에서 추가한 내용");
+		System.out.println("과연 성공?");
 		System.out.println("학원에서 추가한 내용");
 		System.out.println("finish");
 	}
