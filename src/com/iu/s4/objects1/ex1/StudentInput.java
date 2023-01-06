@@ -20,7 +20,6 @@ public class StudentInput {
 	//학생 객체를 배열에 대입
 	
 	public Student findStudent(Student[] students) {
-    	StudentView sv = new StudentView();
 		Scanner sc = new Scanner(System.in);
     	System.out.print("찾으려는 학생의 번호를 입력: ");
 	    int num = sc.nextInt();
