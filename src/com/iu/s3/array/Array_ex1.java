@@ -30,7 +30,7 @@ public class Array_ex1 {
 		double [] avgs = new double[names.length];
 		
 		for(int i=0;i<names.length;i++) {
-			System.out.print(i+1+" 번째 학생 수를 입력하세요:");
+			System.out.print(i+1+" 번째 학생 이름을 입력하세요:");
 			names[i] = sc.next();			
 		}
 		
