@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Array6 {
 
 	public static void main(String[] args) {
+		//같은 배열변수로 배열 크기 줄이기 (입력받은 수를 제외시킴)
 		int [] ar = {8,5,13,9,6};
 		int [] copy = new int[ar.length-1];
 		int idx = 0;

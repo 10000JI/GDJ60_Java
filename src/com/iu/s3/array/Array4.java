@@ -3,6 +3,7 @@ package com.iu.s3.array;
 public class Array4 {
 
 	public static void main(String[] args) {
+		//같은 배열변수로 배열 크기 늘리기
 		int[] ar1 = {1,2,3};
 		//새로운 배열 생성
 		//★깊은 복사★
@@ -14,7 +15,8 @@ public class Array4 {
 		
 		copy[copy.length-1]=4;
 		
-		ar1=copy; //얕은복사
+		//얕은복사
+		ar1=copy;
 		
 		for(int i=0;i<ar1.length;i++) {
 			System.out.println(ar1[i]);

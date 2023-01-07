@@ -8,6 +8,7 @@ public class Array1 {
 		//primitive type
 		//숫자(정수형:byte, short, int, long),실수형:float, double
 		//문자:char, 논리형:boolean
+		
 		//reference type
 		//String
 		
@@ -38,7 +39,5 @@ public class Array1 {
 			System.out.println(ar3[i]);
 		} //변수로 i를 많이 쓰는 이유: index번호임을 알려주기 위해
 		//for문은 횟수를 정해 반복할 때
-		
 	}
-
 }

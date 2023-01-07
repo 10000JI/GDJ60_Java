@@ -19,7 +19,7 @@ public class Array2 {
 			ar3[i] = sc.nextInt();
 		}
 		for(int i=0;i<ar3.length;i++) {
-			System.out.println("ar["+i+"]=의 값: "+ar3[i]);
+			System.out.println("ar3["+i+"]=의 값: "+ar3[i]);
 		}
 		
 		System.out.println(ar[2]);

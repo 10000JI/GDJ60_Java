@@ -17,7 +17,6 @@ public class Array7 {
 		while(check) {
 			System.out.println("1.데이터추가 2.데이터삭제 3.종료");
 			int num = sc.nextInt();		
-			
 			if(num==1) {
 				System.out.print("추가할 숫자를 입력하시오: ");
 				num = sc.nextInt();
@@ -27,15 +26,12 @@ public class Array7 {
 					copy[i+1] = ar[i];
 				}
 				ar = copy;
-				
 			} else if(num==2) {
 				int [] copy = new int[ar.length-1];
 				for(int i=0;i<copy.length;i++) {
 					copy[i]=ar[i+1];
 				}
-				
 				ar=copy;
-				
 			} else if(num==3) {
 				System.out.println("종료되었습니다.");
 				break;
