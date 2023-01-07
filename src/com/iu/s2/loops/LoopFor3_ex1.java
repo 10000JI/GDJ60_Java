@@ -20,11 +20,11 @@ public class LoopFor3_ex1 {
 				System.out.println(b+" 분"+s+" 초");
 				if(b == bun && s == cho ) {
 //ex1>
-//					b=60;
-//					break;
+//					b=60; //바깥쪽 for문 종료
+//					break; //안쪽 for문 종료
 //ex2>
-					check = true;
-					break;
+					check = true; //바깥쪽 for문 종료
+					break; //안쪽 for문 종료
 				}
 			}//안쪽 for 끝
 			if(check) {

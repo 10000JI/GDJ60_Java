@@ -67,16 +67,16 @@ public class Control2_ex2 {
 //		}
 
 //ex2>		
-//		if(avg >= 60) {
-//			if(kor>=40&&eng>=40&&math>=40) {
-//				System.out.println("합격");
-//			} else {
-//				System.out.println("불합격");
-//			}
-//		}else {
-//			System.out.println("불합격");
-//			
-//		}
+		if(avg >= 60) {
+			if(kor>=40&&eng>=40&&math>=40) {
+				System.out.println("합격");
+			} else {
+				System.out.println("불합격");
+			}
+		}else {
+			System.out.println("불합격");
+			
+		}
 		
 //ex3>		
 		boolean flag = false;

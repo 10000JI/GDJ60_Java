@@ -3,12 +3,10 @@ package com.iu.s1.controls;
 import java.util.Scanner;
 
 public class Control4_ex1 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("평균을 입력:");
 		int avg = sc.nextInt();
-		
 		//평균이 90점 이상이면 A
 		//평균이 80점 이상이면 B
 		//평균이 70점 이상이면 C
@@ -30,5 +28,4 @@ public class Control4_ex1 {
 			break;
 		}
 	}
-
 }

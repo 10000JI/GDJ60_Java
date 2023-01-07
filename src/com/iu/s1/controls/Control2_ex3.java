@@ -27,7 +27,6 @@ public class Control2_ex3 {
 		//실금여 출력
 		
 		boolean check = false; //false : 로그인 X | true : 로그인 O
-		
 		if(id==inputId&&pw==inputPw) {
 			System.out.println("로그인 성공입니다.");
 			check = true;
@@ -35,33 +34,26 @@ public class Control2_ex3 {
 			System.out.println("로그인 실패입니다.");
 			check = false;
 		}
-		
 		if (check) {
 			System.out.print("급여입력: ");
 			int salary = sc.nextInt();
-			
 			System.out.println("1. 정규직	2. 계약직");
 			int select = sc.nextInt();
-			
 			if(select ==1) {
 				System.out.println("정규직 선택");
 				int tax = 0;
 //				//고용보험
 //				int tax1 = (int)(salary*0.02);
 				tax = tax+(int)(salary*0.02); //누적함수
-//				
 //				//의료보험
 //				int tax2 = (int)(salary*0.03);
 				tax = tax+(int)(salary*0.03);
-				
 //				//산재보험
 //				int tax3 = (int)(salary*0.01);
 				tax = tax+(int)(salary*0.01);
-				
 //				//국민연금
 //				int tax4 = (int)(salary*0.01);
 				tax = tax+(int)(salary*0.01);
-				
 				salary = salary - tax;
 			}else {
 				System.out.println("계약직 선택");
@@ -71,8 +63,5 @@ public class Control2_ex3 {
 		}else { 
 			System.out.println("로그인 한 사용자만 가능");
 		}
-		
-		
-		
 	}
 }	

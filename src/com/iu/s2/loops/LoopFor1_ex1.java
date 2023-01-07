@@ -11,13 +11,11 @@ public class LoopFor1_ex1 {
 			}
 		}
 		System.out.println("=======================");
-		
 		//짝수 출력 if문 없이 출력
 		for(int j=0;j<100 ;j=j+2) {
 			System.out.println(j);
 		}
 		System.out.println("=======================");
-		
 		//0~100미만의 합계를 구하세요
 		//1+2+...+99
 		int l = 0;

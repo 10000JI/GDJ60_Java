@@ -29,9 +29,6 @@ public class LoopWhile1 {
 			} else {
 				System.out.println("틀렸습니다.");
 			}
-			
-			
 		}
 	}
-
 }
